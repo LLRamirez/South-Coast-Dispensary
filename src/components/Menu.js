@@ -12,11 +12,6 @@ const Menu = (props) => {
             <div className="bg-red-400 flex flex-col justify-center items-center w-full">
                <div className="bg-purple-400 pt-4 px-4 flex flex-row justify-between w-5/6">
                    <p>BUDS</p>
-                   {/* <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
-                       className="w-20"
-                   /> */}
                    <BudList/>
                </div> 
                <div className="bg-green-400 pt-4 px-4 flex flex-row justify-between w-5/6">
@@ -28,14 +23,37 @@ const Menu = (props) => {
                    />
                </div>
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
-                   <p>Carts</p>
+                   <p>Elevted Carts</p>
+                   <img
+                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
+                       alt='bud nug'
+                       className="w-20"
+                   />
+               </div> 
+               <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
+                   <p>O.D. Edibles</p>
                    <img
                        src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
                        alt='bud nug'
                        className="w-20"
                    />
                </div>  
-               <ScrollDialog/>
+               <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
+                   <p>VooDoo  Child Elixer</p>
+                   <img
+                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
+                       alt='bud nug'
+                       className="w-20"
+                   />
+               </div>  
+               <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
+                   <p>Seed & Starter Plants</p>
+                   <img
+                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
+                       alt='bud nug'
+                       className="w-20"
+                   />
+               </div>  
             </div>
         </div>
     );

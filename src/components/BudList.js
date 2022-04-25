@@ -5,6 +5,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import { products } from '../data/menu-data';
 
 class BudList extends React.Component {
   state = {
@@ -40,16 +41,72 @@ class BudList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div>
-                <div>
-                    <p>TITLE</p>
+            <div className="p-8">
+                
+                {products.map((prod) => (
+                    <div>
+                    <div className="text-center pt-4 pb-3">
+                        <p className="text-2xl font-bold">HOUSE BUDS</p>
+                        <p className="text-base">$220oz | $120 hlf</p>
+                    </div>
+                    <div className="">
+                        <ul className="list-disc">
+                            <li className="text-lg">{prod.title}</li>
+                            <li className="text-lg">{prod.price}</li>
+                        </ul>
+                        <image
+                            src={prod.imageUrl}
+                        />
+                    </div>
+                    
                 </div>
-                <ul>
-                    <li>Pucker</li>
-                    <li>GG</li>
-                    <li>Ice crean</li>
-                    <li>Whoo</li>
-                </ul>
+                ))}
+        <div>
+
+<div className="text-center pt-4 pb-3">
+    <p className="text-2xl font-bold">MID TIER</p>
+    <p className="text-base">$250oz | $130 hlf</p>
+</div>
+<div className="">
+    <ul className="list-disc">
+        <li className="text-lg">Lemon Haze</li>
+        <li className="text-lg">Ice Cream Cake</li>
+        <li className="text-lg">Whoosie Who</li>
+    </ul>
+</div>
+</div>
+
+<div>
+
+<div className="text-center pt-4 pb-3">
+    <p className="text-2xl font-bold">TOP TIER</p>
+    <p className="text-base">$280oz | $150 hlf</p>
+</div>
+<div className="">
+    <ul className="list-disc">
+        <li className="text-lg">Lava Cake</li>
+        <li className="text-lg">Peanut Butter Breath</li>
+        <li className="text-lg">Snicker Doodle</li>
+    </ul>
+</div>
+</div>
+
+<div>
+
+<div className="text-center pt-4 pb-3">
+    <p className="text-2xl font-bold">SECRET STASH</p>
+    <p className="text-base">$300oz | $160 hlf</p>
+</div>
+<div className="">
+    <ul className="list-disc">
+        <li className="text-lg">Miracle Alien Cookies</li>
+        <li className="text-lg">Hell on Wheels</li>
+        <li className="text-lg">Strawberry Banana</li>
+    </ul>
+</div>
+</div>
+
+
             </div>
             
             </DialogContentText>
