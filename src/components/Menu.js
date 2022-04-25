@@ -1,7 +1,11 @@
 import React from 'react';
-import { products } from '../data/menu-data';
-import ScrollDialog from '../components/ScrollDialog';
+
 import BudList from '../components/BudList';
+import SauceList from '../components/SauceList';
+import CartList from './CartList';
+import EdiblesList from './EdiblesList';
+import ElixirList from '../components/ElixirList';
+import StarterPlantsList from '../components/StarterPlantsList';
 
 const Menu = (props) => {
     return(
@@ -15,44 +19,24 @@ const Menu = (props) => {
                    <BudList/>
                </div> 
                <div className="bg-green-400 pt-4 px-4 flex flex-row justify-between w-5/6">
-                   <p>Diamond Sauce</p>
-                   <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
-                       className="w-20"
-                   />
+                   <p>Concentrates</p>
+                   <SauceList/>
                </div>
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
                    <p>Elevted Carts</p>
-                   <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
-                       className="w-20"
-                   />
+                   <CartList/>
                </div> 
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
                    <p>O.D. Edibles</p>
-                   <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
-                       className="w-20"
-                   />
+                   <EdiblesList/>
                </div>  
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
                    <p>VooDoo  Child Elixer</p>
-                   <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
-                       className="w-20"
-                   />
+                   <ElixirList/>
                </div>  
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-between w-5/6">
                    <p>Seed & Starter Plants</p>
-                   <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
-                       className="w-20"
-                   />
+                   <StarterPlantsList/>
                </div>  
             </div>
         </div>
