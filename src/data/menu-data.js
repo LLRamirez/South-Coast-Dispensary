@@ -1,10 +1,10 @@
 
 
-export const products = [
+export const houseBud = [
 {  
     id: 'p1',
-    title: 'Bubba Kush OG',
-    imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+    title: 'Pucker Punch',
+    imageUrl: './pucker.png',
     description: 'Fruity & sweet',
     price: 29.99,
     thc: "21%",
@@ -12,21 +12,103 @@ export const products = [
 },
 {  
     id: 'p2',
-    title: 'Hawaii Kush OG',
-    imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+    title: 'Gorilla Glue',
+    imageUrl: './gg.png',
     description: 'Fruity & sweet',
     price: 29.99,
     thc: "21%",
     reviews: 2,
-},{  
-    id: 'p3',
-    title: 'Ocean Kush OG',
-    imageUrl: 'https://images.pexels.com/photos/7773108/pexels-photo-7773108.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
-    description: 'Fruity & sweet',
-    price: 29.99,
-    thc: "21%",
-    reviews: 5,
 },
+];
+
+export const midTier = [
+    {  
+        id: 'm1',
+        title: 'Lemon Haze',
+        imageUrl: './lemon.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 5,
+    },
+    {  
+        id: 'm2',
+        title: 'Ice Cream Cake',
+        imageUrl: './icecream.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 4,
+    },
+    {  
+        id: 'm3',
+        title: 'Whoosie Who',
+        imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 3,
+    },
+];
+
+export const topTier = [
+    {  
+        id: 't1',
+        title: 'Lava Cake',
+        imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 3,
+    },
+    {  
+        id: 't2',
+        title: 'Peanut Butter Breathe',
+        imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 4,
+    },
+    {  
+        id: 't3',
+        title: 'Snicker Doodle',
+        imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 2,
+    },
+];
+
+export const secretStash = [
+    {  
+        id: 'ss1',
+        title: 'Miracle Alien Cookies',
+        imageUrl: './miracle.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 5,
+    },
+    {  
+        id: 'ss2',
+        title: 'Hell on Wheels',
+        imageUrl: 'https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 4,
+    },
+    {  
+        id: 'ss3',
+        title: 'Strawberry Banana',
+        imageUrl: './strawb.png',
+        description: 'Fruity & sweet',
+        price: 29.99,
+        thc: "21%",
+        reviews: 13,
+    },
 ];
 
 export const sauce = [
@@ -95,30 +177,30 @@ export const carts = [
         id: 'c1',
         title: 'Hawaiian Snow',
         reviews: 4,
-        imageUrl: 'https://cdn.shopify.com/s/files/1/1129/0442/products/2021_JettyCartTubeTangie_1_large.jpg?v=1616609034',
+        imageUrl: './cart.png',
     },
     {
         id: 'c2',
         title: 'Lambs Breathe',
         reviews: 4,
-        imageUrl: 'https://cdn.shopify.com/s/files/1/1129/0442/products/2021_JettyCartTubeTangie_1_large.jpg?v=1616609034',
+        imageUrl: './cart.png',
     },
     {
         id: 'c3',
         title: 'Sour Kosher',
         reviews: 4,
-        imageUrl: 'https://cdn.shopify.com/s/files/1/1129/0442/products/2021_JettyCartTubeTangie_1_large.jpg?v=1616609034',
+        imageUrl: './cart.png',
     },
     {
         id: 'c4',
         title: 'Mac Glue',
         reviews: 4,
-        imageUrl: 'https://cdn.shopify.com/s/files/1/1129/0442/products/2021_JettyCartTubeTangie_1_large.jpg?v=1616609034',
+        imageUrl: './cart.png',
     },
     {
         id: 'c5',
         title: 'Bruce Banner',
         reviews: 4,
-        imageUrl: 'https://cdn.shopify.com/s/files/1/1129/0442/products/2021_JettyCartTubeTangie_1_large.jpg?v=1616609034',
+        imageUrl: './cart.png',
     }
 ];

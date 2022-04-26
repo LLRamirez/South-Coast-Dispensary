@@ -21,6 +21,12 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
+import BudList from '../components/BudList';
+import StarterPlantsList from "../components/StarterPlantsList";
+import EdiblesList from "../components/EdiblesList";
+import ElixirList from "../components/ElixirList";
+import SauceList from "../components/SauceList";
+import CartList from "../components/CartList";
 
 
 
@@ -98,7 +104,7 @@ export default function MainNavigation() {
         <Toolbar>
 
             <Typography variant="h6" sx={{flexGrow: 1, fontWeight: 700}}>
-            Southcoast Marijuana Dispensary Delivery
+            Southcoast MJ Dispensary Delivery
             </Typography>
 
             <Box component="div" sx={{
@@ -155,50 +161,59 @@ export default function MainNavigation() {
 
                   <Divider sx={{mb: 2}} />
 
-                  <Box sx={{mb: 2}}>Bud
+                  <Box sx={{mb: 2}}>
                     <ListItemButton>
                       <ListItemIcon>
-                        <ImageIcon sx={{color: "primary.main"}}/>
+                      <p>Flower</p>
                       </ListItemIcon>
-                      <ListItemText primary="Bud" />
+                      {/* <ListItemText primary="Bud" /> */}
+                      <BudList/>
                     </ListItemButton>
 
                     <ListItemButton>
                       <ListItemIcon>
-                        <DescriptionIcon sx={{color: "primary.main"}}/>
+                        {/* <DescriptionIcon sx={{color: "primary.main"}}/> */}
+                        <p>Concentrates</p>
                       </ListItemIcon>
-                      <ListItemText primary="Concentrates" />
+                      {/* <ListItemText primary="Concentrates" /> */}
+                      <SauceList/>
                     </ListItemButton>
 
                     <ListItemButton>
                       <ListItemIcon>
-                        <FolderIcon sx={{color: "primary.main"}} />
+                      <p>Cartridges</p>
+                        {/* <FolderIcon sx={{color: "primary.main"}} /> */}
+                        {/* <ListItemText primary="Cartridges" />  */}
                       </ListItemIcon>
-                      <ListItemText primary="Cartridges" />
-                    </ListItemButton>
-
-
-                    <ListItemButton>
-                      <ListItemIcon>
-                        <FolderIcon sx={{color: "primary.main"}} />
-                      </ListItemIcon>
-                      <ListItemText primary="Edibles" />
-                    </ListItemButton>
-
-
-                    <ListItemButton>
-                      <ListItemIcon>
-                        <FolderIcon sx={{color: "primary.main"}} />
-                      </ListItemIcon>
-                      <ListItemText primary="Oral Syringe" />
+                      <CartList/>
+                      
                     </ListItemButton>
 
 
                     <ListItemButton>
                       <ListItemIcon>
-                        <FolderIcon sx={{color: "primary.main"}} />
+                        <p>Edibles</p>
                       </ListItemIcon>
-                      <ListItemText primary="Seeds & Starter Plants" />
+                      <EdiblesList/>
+                      {/* <ListItemText primary="Edibles" /> */}
+                    </ListItemButton>
+
+
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <p>Oral Syringe</p>
+                      </ListItemIcon>
+                      <ElixirList/>
+                      {/* <ListItemText primary="Oral Syringe" /> */}
+                    </ListItemButton>
+
+
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <p>Starter Plants</p>
+                      </ListItemIcon>
+                      <StarterPlantsList/>
+                      {/* <ListItemText primary="Seeds & Starter Plants" /> */}
                     </ListItemButton>
 
 

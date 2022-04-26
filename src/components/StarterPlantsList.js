@@ -41,7 +41,7 @@ class StarterPlantsList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div className="p-8">
+            <div className="">
             <div className="text-center pt-4 pb-3">
                         <p className="text-2xl font-bold">SEEDS & STARTER PLANTS</p>
                         <p className="text-base">$100 each | $250 per 3</p>
@@ -56,10 +56,10 @@ class StarterPlantsList extends React.Component {
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{sp.title}</p>
-                            <p className="text-lg">{sp.thc}</p>
+                            <p className="text-lg font-bold underline">{sp.title}</p>
+                            <p className="text-base">{sp.thc}</p>
                             <div>
-                            <p className="text-lg">Reviews [{sp.reviews}]</p>
+                            <p className="text-base">Reviews [{sp.reviews}]</p>
                               
                             </div>
                         </div>

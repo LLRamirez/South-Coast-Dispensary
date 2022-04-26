@@ -40,7 +40,7 @@ class CartList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div className="p-8">
+            <div className="">
             <div className="text-center pt-4 pb-3">
                         <p className="text-2xl font-bold">CARTRIDGES</p>
                         <p className="text-base">$60 each | $400 per/4</p>
@@ -55,10 +55,10 @@ class CartList extends React.Component {
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{cart.title}</p>
+                            <p className="text-lg font-bold underline">{cart.title}</p>
                             
                             <div>
-                            <p className="text-lg">Reviews [{cart.reviews}]</p>
+                            <p className="text-base">Reviews [{cart.reviews}]</p>
                               
                             </div>
                         </div>

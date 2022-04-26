@@ -5,7 +5,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import { products } from '../data/menu-data';
+import { houseBud, midTier, topTier, secretStash } from '../data/menu-data';
 
 class BudList extends React.Component {
   state = {
@@ -41,25 +41,25 @@ class BudList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div className="p-8">
+            <div className="">
             <div className="text-center pt-4 pb-3">
                         <p className="text-2xl font-bold whitespace-nowrap">HOUSE BUDS</p>
                         <p className="text-base">$220oz | $120 hlf</p>
                     </div>
                     <div className="flex flex-col items-center">
-                {products.map((prod) => (
+                {houseBud.map((hbud) => (
                     
                     
                     <div className="pb-8">
                     <img
-                            src={prod.imageUrl}
+                            src={hbud.imageUrl}
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{prod.title}</p>
-                            {/* <p className="text-lg">{prod.price}</p> */}
+                            <p className="text-lg font-bold underline">{hbud.title}</p>
+                            {/* <p className="text-lg">{hbud.price}</p> */}
                             <div>
-                            <p className="text-lg">Reviews [{prod.reviews}]</p>
+                            <p className="text-base">Reviews [{hbud.reviews}]</p>
                               
                             </div>
                         </div>
@@ -76,19 +76,19 @@ class BudList extends React.Component {
     <p className="text-base">$250oz | $130 hlf</p>
 </div>
 <div className="flex flex-col items-center">
-  {products.map((prod) => (
+  {midTier.map((mT) => (
                     
                     
                     <div className="pb-8">
                     <img
-                            src={prod.imageUrl}
+                            src={mT.imageUrl}
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{prod.title}</p>
-                            {/* <p className="text-lg">{prod.price}</p> */}
+                            <p className="text-lg font-bold underline">{mT.title}</p>
+                            {/* <p className="text-lg">{mT.price}</p> */}
                             <div>
-                            <p className="text-lg">Reviews [{prod.reviews}]</p>
+                            <p className="text-base">Reviews [{mT.reviews}]</p>
                               
                             </div>
                         </div>
@@ -107,19 +107,19 @@ class BudList extends React.Component {
     <p className="text-base">$280oz | $150 hlf</p>
 </div>
 <div className="flex flex-col items-center">
-  {products.map((prod) => (
+  {topTier.map((tT) => (
                     
                     
                     <div className="pb-8">
                     <img
-                            src={prod.imageUrl}
+                            src={tT.imageUrl}
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{prod.title}</p>
-                            {/* <p className="text-lg">{prod.price}</p> */}
+                            <p className="text-lg font-bold underline">{tT.title}</p>
+                            {/* <p className="text-lg">{tT.price}</p> */}
                             <div>
-                            <p className="text-lg">Reviews [{prod.reviews}]</p>
+                            <p className="text-base">Reviews [{tT.reviews}]</p>
                               
                             </div>
                         </div>
@@ -138,19 +138,19 @@ class BudList extends React.Component {
     <p className="text-base">$300oz | $160 hlf</p>
 </div>
 <div className="flex flex-col items-center">
-  {products.map((prod) => (
+  {secretStash.map((sSt) => (
                     
                     
                     <div className="pb-8">
                     <img
-                            src={prod.imageUrl}
+                            src={sSt.imageUrl}
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{prod.title}</p>
+                            <p className="text-lg font-bold underline">{sSt.title}</p>
                             {/* <p className="text-lg">{prod.price}</p> */}
                             <div>
-                            <p className="text-lg">Reviews [{prod.reviews}]</p>
+                            <p className="text-base">Reviews [{sSt.reviews}]</p>
                               
                             </div>
                         </div>

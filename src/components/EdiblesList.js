@@ -7,6 +7,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { edibles } from '../data/menu-data';
 
+
 class EdiblesList extends React.Component {
   state = {
     open: false,
@@ -41,7 +42,7 @@ class EdiblesList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div className="p-8">
+            <div className="">
             <div className="text-center pt-4 pb-3">
                         <p className="text-2xl font-bold">EDIBLES</p>
                         <p className="text-base">$40 each | $200 per 6</p>
@@ -56,11 +57,20 @@ class EdiblesList extends React.Component {
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{ed.title}</p>
-                            <p className="text-lg">{ed.thc}</p>
+                            <p className="text-lg font-bold underline">{ed.title}</p>
+                            <p className="text-base">{ed.thc}</p>
                             <div>
-                            <p className="text-lg">Reviews [{ed.reviews}]</p>
-                              
+                            <div className="flex flex-row">
+                            <p className="text-base">Reviews</p>
+                            {/* <Star
+  color={'#f5ec42'} 
+  beat 
+  title={""}
+  height="24px"
+  width="24px"
+/> */}
+                            <p className="text-lg">[{ed.reviews}]</p>
+                            </div>
                             </div>
                         </div>
                         

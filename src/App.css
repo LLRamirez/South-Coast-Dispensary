@@ -40,3 +40,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("./fonts/UbuntuMono-Regular.ttf") format("ttf"),
+    url("./fonts/UbuntuMono-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-display: swap;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Ubuntu Mono";
+  font-weight: 400;
+}

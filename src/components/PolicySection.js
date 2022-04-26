@@ -5,16 +5,16 @@ const PolicySection = props => {
         <div className="pt-8 pb-8">
             <div className="pb-8">
                 <p className="text-2xl font-bold pb-4">Delivery Policy:</p>
-                <p>$100 minimum + $20 delivery fee.</p>
+                <p>$100 min + $20 delivery fee.</p>
             </div>
             <div className="pb-8">
                 <p className="text-2xl font-bold pb-4">How to order?</p>
-                <p className="pb-2">Text 401-292-2222:</p>
+                <p className="pb-2">Text 774-441-2993:</p>
                     <div className="flex justify-center">
                         <ol className="text-left">
-                            <li>1. Your <u>Photo ID</u> or <u>Medical ID</u></li>
-                            <li>2. Your <u>Delivery Address</u></li>
-                            <li>3. Your <u>Order</u></li>
+                            <li>1. Your <u><b>Photo ID</b></u> or <u><b>Medical ID</b></u></li>
+                            <li>2. Your <u><b>Delivery Address</b></u></li>
+                            <li>3. Your <u><b>Order</b></u></li>
                             <li>4. <b>Done!</b> (ETA & Confirmation # sent within 1 hr)</li>
                         </ol>
                     </div>

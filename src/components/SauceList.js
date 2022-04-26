@@ -41,7 +41,7 @@ class SauceList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div className="p-8">
+            <div className="">
             <div className="text-center pt-4 pb-3">
                         <p className="text-2xl font-bold">THC SAUCE</p>
                         <p className="text-base">$40 1g | $120 3.5g</p>
@@ -56,10 +56,10 @@ class SauceList extends React.Component {
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{sau.title}</p>
-                            <p className="text-lg">{sau.description}</p>
+                            <p className="text-lg font-bold underline">{sau.title}</p>
+                            <p className="text-base">{sau.description}</p>
                             <div>
-                            <p className="text-lg">Reviews [{sau.reviews}]</p>
+                            <p className="text-base">Reviews [{sau.reviews}]</p>
                               
                             </div>
                         </div>

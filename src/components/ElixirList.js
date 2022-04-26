@@ -41,7 +41,7 @@ class ElixirList extends React.Component {
          
           <DialogContent>
             <DialogContentText>
-            <div className="p-8">
+            <div className="">
             <div className="text-center pt-4 pb-3">
                         <p className="text-2xl font-bold">THC OIL</p>
                         <p className="text-base">$100 each | $250 per 3</p>
@@ -56,10 +56,10 @@ class ElixirList extends React.Component {
                             className=""
                         />
                         <div className="">
-                            <p className="text-lg">{el.title}</p>
-                            <p className="text-lg">{el.thc}</p>
+                            <p className="text-lg font-bold underline">{el.title}</p>
+                            <p className="text-base">{el.thc}</p>
                             <div>
-                            <p className="text-lg">Reviews [{el.reviews}]</p>
+                            <p className="text-base">Reviews [{el.reviews}]</p>
                               
                             </div>
                         </div>
