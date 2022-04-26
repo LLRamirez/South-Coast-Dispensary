@@ -4,11 +4,11 @@ const PolicySection = props => {
     return (
         <div className="pt-8 pb-8">
             <div className="pb-8">
-                <p className="text-2xl font-bold pb-4">Delivery Policy:</p>
+                <p className="text-2xl font-bold pb-4 underline">Delivery Policy:</p>
                 <p>$100 min + $20 delivery fee.</p>
             </div>
             <div className="pb-8">
-                <p className="text-2xl font-bold pb-4">How to order?</p>
+                <p className="text-2xl font-bold pb-4 underline">How to order?</p>
                 <p className="pb-2">Text 774-441-2993:</p>
                     <div className="flex justify-center">
                         <ol className="text-left">
@@ -20,11 +20,11 @@ const PolicySection = props => {
                     </div>
             </div>
             <div className="pb-8">
-                <p className="text-2xl font-bold pb-4">Payment Policy:</p>
+                <p className="text-2xl font-bold pb-4 underline">Payment Policy:</p>
                 <p>At time of delivery via cash or $Cashapp.</p>
             </div>
             <div className="pb-8">
-                <p className="text-2xl font-bold pb-4">Shipping Policy:</p>
+                <p className="text-2xl font-bold pb-4 underline">Shipping Policy:</p>
                 <p>Out of state shipping available. (Text for quote)</p>
             </div>
         </div>

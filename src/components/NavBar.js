@@ -103,9 +103,9 @@ export default function MainNavigation() {
       <Container maxWidth="lg" disableGutters="true">
         <Toolbar>
 
-            <Typography variant="h6" sx={{flexGrow: 1, fontWeight: 700}}>
-            Southcoast MJ Dispensary Delivery
-            </Typography>
+            {/* <Typography variant="h6" sx={{flexGrow: 1, fontWeight: 700}}> */}
+           <p className="font-bold grow pt-2 pb-2 text-xl">Southcoast MJ Dispensary Delivery </p>
+            {/* </Typography> */}
 
             <Box component="div" sx={{
               display: {
