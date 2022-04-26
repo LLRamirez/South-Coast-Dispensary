@@ -13,29 +13,29 @@ const Menu = (props) => {
             <div>
             <h1 class="text-3xl font-bold underline">MENU</h1>
             </div>
-            <div className="bg-red-400 flex flex-col justify-center items-center w-full">
+            <div className="bg-red-400 flex flex-col justify-center items-center">
                <div className="bg-purple-400 pt-4 px-4 flex flex-row justify-around w-5/6">
-                   <p>Flower</p>
+                   <p className="font-bold text-lg">FLOWER</p>
                    <BudList/>
                </div> 
                <div className="bg-green-400 pt-4 px-4 flex flex-row justify-around w-5/6">
-                   <p>Concentrates</p>
+                   <p className="font-bold text-lg">CONCENTRATES</p>
                    <SauceList/>
                </div>
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-around w-5/6">
-                   <p>Cartridges</p>
+                   <p className="font-bold text-lg">CARTRIDGES</p>
                    <CartList/>
                </div> 
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-around w-5/6">
-                   <p>Edibles</p>
+                   <p className="font-bold text-lg">EDIBLES</p>
                    <EdiblesList/>
                </div>  
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-around w-5/6">
-                   <p>Tincture Oral Syringe</p>
+                   <p className="font-bold text-lg">TINCTURE SYRINGE</p>
                    <ElixirList/>
                </div>  
                <div className="bg-orange-400 pt-4 px-4 flex flex-row justify-around w-5/6">
-                   <p>Seed & Starter Plants</p>
+                   <p className="font-bold text-lg">SEED & STARTER PLANTS</p>
                    <StarterPlantsList/>
                </div>  
             </div>
