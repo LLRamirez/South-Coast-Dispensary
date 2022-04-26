@@ -10,7 +10,7 @@ const PolicySection = props => {
             <div className="pb-8">
                 <p className="text-2xl font-bold pb-4">How to order?</p>
                 <p className="pb-2">Text 401-292-2222:</p>
-                    <div>
+                    <div className="flex justify-center">
                         <ol className="text-left">
                             <li>1. Your <u>Photo ID</u> or <u>Medical ID</u></li>
                             <li>2. Your <u>Delivery Address</u></li>
@@ -25,7 +25,7 @@ const PolicySection = props => {
             </div>
             <div className="pb-8">
                 <p className="text-2xl font-bold pb-4">Shipping Policy:</p>
-                <p>Out of state shipping available. (Text for more quote)</p>
+                <p>Out of state shipping available. (Text for quote)</p>
             </div>
         </div>
     );

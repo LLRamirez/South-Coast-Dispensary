@@ -4,7 +4,7 @@ const Footer = props => {
     return(
         <div>
             <div className="flex flex-row justify-between">
-                <p>© All rights reserved</p>
+                <p className="text-sm">© All rights reserved</p>
                 <p>Back to top ^</p>
             </div>
         </div>

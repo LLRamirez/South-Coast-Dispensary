@@ -43,7 +43,7 @@ class BudList extends React.Component {
             <DialogContentText>
             <div className="p-8">
             <div className="text-center pt-4 pb-3">
-                        <p className="text-2xl font-bold">HOUSE BUDS</p>
+                        <p className="text-2xl font-bold whitespace-nowrap">HOUSE BUDS</p>
                         <p className="text-base">$220oz | $120 hlf</p>
                     </div>
                     <div className="flex flex-col items-center">
@@ -134,7 +134,7 @@ class BudList extends React.Component {
 <div>
 
 <div className="text-center pt-4 pb-3">
-    <p className="text-2xl font-bold">SECRET STASH</p>
+    <p className="text-2xl font-bold whitespace-nowrap">SECRET STASH</p>
     <p className="text-base">$300oz | $160 hlf</p>
 </div>
 <div className="flex flex-col items-center">

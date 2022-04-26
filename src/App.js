@@ -10,9 +10,8 @@ function App() {
   return (
     <section className="App">
       <NavBar/>
+      <StorePhotoGallery/>
       <div className="px-8 pb-8">
-        
-        <StorePhotoGallery/>
         <Menu/>
         <PolicySection/>
         <Footer/>
