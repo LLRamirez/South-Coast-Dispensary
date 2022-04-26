@@ -25,8 +25,8 @@ class CartList extends React.Component {
       <div>
         <Button onClick={this.handleClickOpen('paper')}>
         <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
+                       src="https://helios-i.mashable.com/imagery/articles/06rJYr9mSqWxM4KcVQZVejH/hero-image.fill.size_1200x1200.v1623386613.jpg"
+                       alt='thc cartrigdes'
                        className="w-20"
                    />
         </Button>

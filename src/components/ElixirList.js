@@ -25,7 +25,7 @@ class ElixirList extends React.Component {
       <div>
         <Button onClick={this.handleClickOpen('paper')}>
         <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
+                       src="https://highoc.com/wp-content/uploads/116399_Syringe-Strawberry-AVATAR.jpg"
                        alt='bud nug'
                        className="w-20"
                    />

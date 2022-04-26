@@ -155,41 +155,57 @@ export default function MainNavigation() {
 
                   <Divider sx={{mb: 2}} />
 
-                  <Box sx={{mb: 2}}>
+                  <Box sx={{mb: 2}}>Bud
                     <ListItemButton>
                       <ListItemIcon>
                         <ImageIcon sx={{color: "primary.main"}}/>
                       </ListItemIcon>
-                      <ListItemText primary="Pictures" />
+                      <ListItemText primary="Bud" />
                     </ListItemButton>
 
                     <ListItemButton>
                       <ListItemIcon>
                         <DescriptionIcon sx={{color: "primary.main"}}/>
                       </ListItemIcon>
-                      <ListItemText primary="Documents" />
+                      <ListItemText primary="Concentrates" />
                     </ListItemButton>
 
                     <ListItemButton>
                       <ListItemIcon>
                         <FolderIcon sx={{color: "primary.main"}} />
                       </ListItemIcon>
-                      <ListItemText primary="Other" />
+                      <ListItemText primary="Cartridges" />
                     </ListItemButton>
+
+
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <FolderIcon sx={{color: "primary.main"}} />
+                      </ListItemIcon>
+                      <ListItemText primary="Edibles" />
+                    </ListItemButton>
+
+
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <FolderIcon sx={{color: "primary.main"}} />
+                      </ListItemIcon>
+                      <ListItemText primary="Oral Syringe" />
+                    </ListItemButton>
+
+
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <FolderIcon sx={{color: "primary.main"}} />
+                      </ListItemIcon>
+                      <ListItemText primary="Seeds & Starter Plants" />
+                    </ListItemButton>
+
+
                   </Box>
                   
 
-                  <Box sx={{
-                    display: "flex", 
-                    justifyContent:"center", 
-                    position: "absolute", 
-                    bottom: "0", 
-                    left: "50%", 
-                    transform: "translate(-50%, 0)"}}
-                  >
-                    <Button variant="contained" sx={{m:1, width: .5}}>Register</Button>
-                    <Button variant="outlined" sx={{m:1, width: .5}}>Login</Button> 
-                  </Box>
+                
                 </Box>
               
             </Drawer>

@@ -25,7 +25,7 @@ class StarterPlantsList extends React.Component {
       <div>
         <Button onClick={this.handleClickOpen('paper')}>
         <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
+                       src="https://2qibqm39xjt6q46gf1rwo2g1-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/25151622_web1_M1-EDH-20210512-Marijuana-Seeds-For-Sale--1280-.jpg"
                        alt='bud nug'
                        className="w-20"
                    />

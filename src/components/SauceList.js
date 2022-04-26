@@ -25,8 +25,8 @@ class SauceList extends React.Component {
       <div>
         <Button onClick={this.handleClickOpen('paper')}>
         <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
-                       alt='bud nug'
+                       src="https://greenrushdaily.com/wp-content/uploads/2017/03/18-different-kinds-cannabis-concentrates-6.jpg"
+                       alt='thc wax'
                        className="w-20"
                    />
         </Button>

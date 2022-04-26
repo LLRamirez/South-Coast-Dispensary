@@ -25,7 +25,7 @@ class EdiblesList extends React.Component {
       <div>
         <Button onClick={this.handleClickOpen('paper')}>
         <img
-                       src="https://www.pngfind.com/pngs/m/59-596989_weed-nugget-png-transparent-png.png"
+                       src="https://images.ctfassets.net/cnu0m8re1exe/3ePSVkzg1uMq0VhFtdZPpf/52124ccc84911c1e62875f3dcc203da7/15_Best_THC_Edibles.png"
                        alt='bud nug'
                        className="w-20"
                    />
