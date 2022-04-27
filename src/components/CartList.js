@@ -38,10 +38,12 @@ class CartList extends React.Component {
           aria-labelledby="scroll-dialog-title"
         >
          
-          <DialogContent>
+          <DialogContent
+          className="bg-[#d3f9b5]"
+          >
             <DialogContentText>
             <div className="">
-            <div className="text-center pt-4 pb-3">
+            <div className="text-center pt-4 pb-3 bg-[#bf6900] text-white mb-4">
                         <p className="text-2xl font-bold">CARTRIDGES</p>
                         <p className="text-base">$60 each | $400 per/4</p>
                     </div>
@@ -54,7 +56,7 @@ class CartList extends React.Component {
                             src={cart.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{cart.title}</p>
                             
                             <div>
@@ -73,7 +75,9 @@ class CartList extends React.Component {
             
             </DialogContentText>
           </DialogContent>
-          <DialogActions>
+          <DialogActions
+          className="bg-[#d3f9b5]"
+          >
             <Button onClick={this.handleClose} color="primary">
              Exit
             </Button>

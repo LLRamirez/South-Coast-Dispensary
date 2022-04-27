@@ -43,15 +43,15 @@
 
 
 @font-face {
-  font-family: "Ubuntu Mono";
-  src: url("./fonts/UbuntuMono-Regular.ttf") format("ttf"),
-    url("./fonts/UbuntuMono-Bold.ttf") format("ttf");
+  font-family: "Indian Type Foundry";
+  src: url("./fonts/Teko-Regular.ttf") format("ttf"),
+    url("./fonts/Teko-Bold.ttf") format("ttf");
   font-weight: bold;
   font-display: swap;
 }
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Ubuntu Mono";
+  font-family: "Indian Type Foundry";
   font-weight: 400;
 }

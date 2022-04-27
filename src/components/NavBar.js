@@ -30,51 +30,6 @@ import CartList from "../components/CartList";
 
 
 
-
-const StyledSearch = styled('div')(
-  ({theme}) => ({
-    position: 'relative',
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: alpha(theme.palette.primary.main, 0.15),
-    '&:hover': {
-      backgroundColor: alpha(theme.palette.primary.main, 0.25),
-    },
-    marginRight: theme.spacing(2),
-    marginLeft: 0,
-    width: '100%',
-    [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(3),
-      width: 'auto',
-    },
-  })  
-);
-
-const SearchIconWrapper = styled('div')(
-  ({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: '100%',
-  position: 'absolute',
-  pointerEvents: 'none',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-}));
-
-const StyledInputBase = styled(InputBase)(
-  ({ theme }) => ({
-  color: 'inherit',
-  '& .MuiInputBase-input': {
-    padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    transition: theme.transitions.create('width'),
-    width: '100%',
-    [theme.breakpoints.up('md')]: {
-      width: '20ch',
-    },
-  },
-}));
-
 export default function MainNavigation() {
 
   /*
@@ -101,7 +56,9 @@ export default function MainNavigation() {
 
     <AppBar position="static">
       <Container maxWidth="lg" disableGutters="true">
-        <Toolbar>
+        <Toolbar
+          className="bg-[#ddfc74] text-[#0b2027]"
+        >
 
             {/* <Typography variant="h6" sx={{flexGrow: 1, fontWeight: 700}}> */}
            <p className="font-bold grow pt-2 pb-2 text-xl">Southcoast MJ Dispensary Delivery </p>
@@ -148,7 +105,8 @@ export default function MainNavigation() {
                 <Box sx={{
                   p: 2,
                   height: 1,
-                  backgroundColor: "#dbc8ff",
+                  backgroundColor: "#d3f9b5",
+                  color: "#bf6900",
                 }}>
 
                   {/* 

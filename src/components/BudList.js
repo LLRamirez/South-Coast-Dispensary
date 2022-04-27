@@ -39,10 +39,12 @@ class BudList extends React.Component {
           aria-labelledby="scroll-dialog-title"
         >
          
-          <DialogContent>
+          <DialogContent
+            className="bg-[#d3f9b5]"
+          >
             <DialogContentText>
             <div className="">
-            <div className="text-center pt-4 pb-3">
+            <div className="text-center pt-4 pb-3 bg-[#bf6900] text-white mb-4">
                         <p className="text-2xl font-bold whitespace-nowrap">HOUSE BUDS</p>
                         <p className="text-base">$220oz | $120 hlf</p>
                     </div>
@@ -55,7 +57,7 @@ class BudList extends React.Component {
                             src={hbud.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{hbud.title}</p>
                             {/* <p className="text-lg">{hbud.price}</p> */}
                             <div>
@@ -71,7 +73,7 @@ class BudList extends React.Component {
                 </div>
         <div>
 
-<div className="text-center pt-4 pb-3">
+<div className="text-center pt-4 pb-3 bg-[#bf6900] text-white mb-4">
     <p className="text-2xl font-bold">MID TIER</p>
     <p className="text-base">$250oz | $130 hlf</p>
 </div>
@@ -84,7 +86,7 @@ class BudList extends React.Component {
                             src={mT.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{mT.title}</p>
                             {/* <p className="text-lg">{mT.price}</p> */}
                             <div>
@@ -102,7 +104,7 @@ class BudList extends React.Component {
 
 <div>
 
-<div className="text-center pt-4 pb-3">
+<div className="text-center pt-4 pb-3 bg-[#bf6900] text-white mb-4">
     <p className="text-2xl font-bold">TOP TIER</p>
     <p className="text-base">$280oz | $150 hlf</p>
 </div>
@@ -115,7 +117,7 @@ class BudList extends React.Component {
                             src={tT.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{tT.title}</p>
                             {/* <p className="text-lg">{tT.price}</p> */}
                             <div>
@@ -133,7 +135,7 @@ class BudList extends React.Component {
 
 <div>
 
-<div className="text-center pt-4 pb-3">
+<div className="text-center pt-4 pb-3 bg-[#bf6900] text-white mb-4">
     <p className="text-2xl font-bold whitespace-nowrap">SECRET STASH</p>
     <p className="text-base">$300oz | $160 hlf</p>
 </div>
@@ -146,7 +148,7 @@ class BudList extends React.Component {
                             src={sSt.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{sSt.title}</p>
                             {/* <p className="text-lg">{prod.price}</p> */}
                             <div>
@@ -167,7 +169,9 @@ class BudList extends React.Component {
             
             </DialogContentText>
           </DialogContent>
-          <DialogActions>
+          <DialogActions
+            className="bg-[#d3f9b5]"
+          >
             <Button onClick={this.handleClose} color="primary">
              Exit
             </Button>

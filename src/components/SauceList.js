@@ -39,10 +39,12 @@ class SauceList extends React.Component {
           aria-labelledby="scroll-dialog-title"
         >
          
-          <DialogContent>
+          <DialogContent
+            className="bg-[#d3f9b5]"
+          >
             <DialogContentText>
             <div className="">
-            <div className="text-center pt-4 pb-3">
+            <div className="text-center pt-4 pb-3 mb-4 bg-[#bf6900] text-white">
                         <p className="text-2xl font-bold">THC SAUCE</p>
                         <p className="text-base">$40 1g | $120 3.5g</p>
                     </div>
@@ -55,7 +57,7 @@ class SauceList extends React.Component {
                             src={sau.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{sau.title}</p>
                             <p className="text-base">{sau.description}</p>
                             <div>
@@ -74,7 +76,9 @@ class SauceList extends React.Component {
             
             </DialogContentText>
           </DialogContent>
-          <DialogActions>
+          <DialogActions
+          className="bg-[#d3f9b5]"
+          >
             <Button onClick={this.handleClose} color="primary">
              Exit
             </Button>

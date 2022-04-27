@@ -39,11 +39,13 @@ class StarterPlantsList extends React.Component {
           aria-labelledby="scroll-dialog-title"
         >
          
-          <DialogContent>
+          <DialogContent
+          className="bg-[#d3f9b5]"
+          >
             <DialogContentText>
             <div className="">
-            <div className="text-center pt-4 pb-3">
-                        <p className="text-2xl font-bold">SEEDS & STARTER PLANTS</p>
+            <div className="text-center pt-4 pb-3 bg-[#bf6900] mb-4 text-white">
+                        <p className="text-2xl font-bold">STARTER PLANTS</p>
                         <p className="text-base">$100 each | $250 per 3</p>
                     </div>
                     <div className="flex flex-col items-center">
@@ -55,7 +57,7 @@ class StarterPlantsList extends React.Component {
                             src={sp.imageUrl}
                             className=""
                         />
-                        <div className="">
+                        <div className="text-[#0b2027]">
                             <p className="text-lg font-bold underline">{sp.title}</p>
                             <p className="text-base">{sp.thc}</p>
                             <div>
@@ -74,7 +76,9 @@ class StarterPlantsList extends React.Component {
             
             </DialogContentText>
           </DialogContent>
-          <DialogActions>
+          <DialogActions
+          className="bg-[#d3f9b5]"
+          >
             <Button onClick={this.handleClose} color="primary">
              Exit
             </Button>

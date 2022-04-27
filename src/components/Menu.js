@@ -11,30 +11,30 @@ const Menu = (props) => {
     return(
         <div>
             <div className="pt-6">
-            <h1 class="text-3xl font-bold underline pt-6 pb-4">MENU</h1>
+            <h1 class="text-3xl font-bold underline pt-6 pb-4 text-center text-[#ddfc74]">MENU</h1>
             </div>
-            <div className="bg-red-400 flex flex-col justify-center items-center">
-               <div className="bg-purple-400 pt-4 flex flex-row justify-between items-center w-full">
+            <div className="flex flex-col justify-center items-center">
+               <div className="border-b-4 border-b-[#d3f9b5] pt-4 pb-4 flex flex-row justify-between items-center w-full">
                    <p className="font-bold text-lg">FLOWER</p>
                    <BudList/>
                </div> 
-               <div className="pt-4 flex flex-row justify-between items-center w-full">
+               <div className="border-b-4 border-b-[#d3f9b5] pt-4 pb-4 flex flex-row justify-between items-center w-full">
                    <p className="font-bold text-lg">CONCENTRATES</p>
                    <SauceList/>
                </div>
-               <div className="pt-4 flex flex-row justify-between items-center w-full">
+               <div className="border-b-4 border-b-[#d3f9b5] pt-4 pb-4 flex flex-row justify-between items-center w-full">
                    <p className="font-bold text-lg">CARTRIDGES</p>
                    <CartList/>
                </div> 
-               <div className="pt-4 flex flex-row justify-between items-center w-full">
+               <div className="border-b-4 border-b-[#d3f9b5] pt-4 pb-4 flex flex-row justify-between items-center w-full">
                    <p className="font-bold text-lg">EDIBLES</p>
                    <EdiblesList/>
                </div>  
-               <div className="pt-4 flex flex-row justify-between items-center w-full">
+               <div className="border-b-4 border-b-[#d3f9b5] pt-4 pb-4 flex flex-row justify-between items-center w-full">
                    <p className="font-bold text-lg">ORAL SYRINGE</p>
                    <ElixirList/>
                </div>  
-               <div className="pt-4 flex flex-row justify-between items-center w-full">
+               <div className="border-b-4 border-b-[#d3f9b5] pt-4 pb-4 flex flex-row justify-between items-center w-full">
                    <p className="font-bold text-lg">STARTER PLANTS</p>
                    <StarterPlantsList/>
                </div>  
