@@ -63,7 +63,7 @@ export default function MainNavigation() {
         >
 
             {/* <Typography variant="h6" sx={{flexGrow: 1, fontWeight: 700}}> */}
-           <p className="font-bold grow pt-2 pb-2 text-xl">Southcoast MJ Dispensary Delivery </p>
+           <p className="font-bold grow pt-2 pb-2 text-xl">SOUTHCOAST MJ DISPENSARY DELIVERY</p>
             {/* </Typography> */}
 
             <Box component="div" sx={{
@@ -122,9 +122,11 @@ export default function MainNavigation() {
                   <Divider sx={{mb: 2}} />
 
                   <Box sx={{mb: 2}}>
-                    <ListItemButton>
+                    <ListItemButton
+                      className="flex justify-between"
+                    >
                       <ListItemIcon>
-                      <p>Flower</p>
+                      <p className="text-[#0b2027] font-bold">Flower</p>
                       </ListItemIcon>
                       {/* <ListItemText primary="Bud" /> */}
                       <BudList/>
@@ -133,7 +135,7 @@ export default function MainNavigation() {
                     <ListItemButton>
                       <ListItemIcon>
                         {/* <DescriptionIcon sx={{color: "primary.main"}}/> */}
-                        <p>Concentrates</p>
+                        <p className="text-[#0b2027] font-bold">Concentrates</p>
                       </ListItemIcon>
                       {/* <ListItemText primary="Concentrates" /> */}
                       <SauceList/>
@@ -141,7 +143,7 @@ export default function MainNavigation() {
 
                     <ListItemButton>
                       <ListItemIcon>
-                      <p>Cartridges</p>
+                      <p className="text-[#0b2027] font-bold">Cartridges</p>
                         {/* <FolderIcon sx={{color: "primary.main"}} /> */}
                         {/* <ListItemText primary="Cartridges" />  */}
                       </ListItemIcon>
@@ -152,7 +154,7 @@ export default function MainNavigation() {
 
                     <ListItemButton>
                       <ListItemIcon>
-                        <p>Edibles</p>
+                        <p className="text-[#0b2027] font-bold">Edibles</p>
                       </ListItemIcon>
                       <EdiblesList/>
                       {/* <ListItemText primary="Edibles" /> */}
@@ -161,7 +163,7 @@ export default function MainNavigation() {
 
                     <ListItemButton>
                       <ListItemIcon>
-                        <p>Oral Syringe</p>
+                        <p className="text-[#0b2027] font-bold">Oral Syringe</p>
                       </ListItemIcon>
                       <ElixirList/>
                       {/* <ListItemText primary="Oral Syringe" /> */}
@@ -170,7 +172,7 @@ export default function MainNavigation() {
 
                     <ListItemButton>
                       <ListItemIcon>
-                        <p>Starter Plants</p>
+                        <p className="text-[#0b2027] font-bold">Starter Plants</p>
                       </ListItemIcon>
                       <StarterPlantsList/>
                       {/* <ListItemText primary="Seeds & Starter Plants" /> */}
