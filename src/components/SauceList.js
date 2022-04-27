@@ -46,7 +46,7 @@ class SauceList extends React.Component {
             <DialogContentText>
             <div className="">
             <div className="text-center pt-4 pb-3 mb-4 bg-[#bf6900] text-white">
-                        <p className="text-2xl font-bold">THC SAUCE</p>
+                        <p className="text-2xl font-bold">THC WAX</p>
                         <p className="text-base">$40 1g | $120 3.5g</p>
                     </div>
                     <div className="flex flex-col items-center">

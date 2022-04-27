@@ -54,7 +54,9 @@ export default function MainNavigation() {
 
   return (
 
-    <AppBar position="static">
+    <AppBar 
+    class="bg-[#ddfc74]"
+    position="static">
       <Container maxWidth="lg" disableGutters="true">
         <Toolbar
           className="bg-[#ddfc74] text-[#0b2027]"
