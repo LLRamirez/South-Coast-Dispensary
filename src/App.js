@@ -10,7 +10,7 @@ function App() {
   return (
     <section className="bg-[#0b2027] text-white">
       <NavBar/>
-      <StorePhotoGallery
+      <StorePhotoGallery/>
       <div className="px-4 pb-8">
         <Menu/>
         <PolicySection/>
