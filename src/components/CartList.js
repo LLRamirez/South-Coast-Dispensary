@@ -6,6 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { carts } from '../data/menu-data';
+import StarIcon from '@mui/icons-material/Star';
 
 class CartList extends React.Component {
   state = {
@@ -60,7 +61,9 @@ class CartList extends React.Component {
                             <p className="text-lg font-bold underline">{cart.title}</p>
                             
                             <div>
-                            <p className="text-base">Reviews [{cart.reviews}]</p>
+                            <p className="text-base">Reviews 
+                            <StarIcon />
+                            [{cart.reviews}]</p>
                               
                             </div>
                         </div>

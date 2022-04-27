@@ -6,7 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { edibles } from '../data/menu-data';
-
+import StarIcon from '@mui/icons-material/Star';
 
 class EdiblesList extends React.Component {
   state = {
@@ -64,14 +64,10 @@ class EdiblesList extends React.Component {
                             <div>
                             <div className="flex flex-row">
                             <p className="text-base">Reviews</p>
-                            {/* <Star
-  color={'#f5ec42'} 
-  beat 
-  title={""}
-  height="24px"
-  width="24px"
-/> */}
-                            <p className="text-lg">[{ed.reviews}]</p>
+                            
+                            <p className="text-lg">
+                            <StarIcon/>
+                            [{ed.reviews}]</p>
                             </div>
                             </div>
                         </div>

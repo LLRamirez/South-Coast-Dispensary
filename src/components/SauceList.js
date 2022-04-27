@@ -6,6 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { sauce } from '../data/menu-data';
+import StarIcon from '@mui/icons-material/Star';
 
 class SauceList extends React.Component {
   state = {
@@ -61,7 +62,9 @@ class SauceList extends React.Component {
                             <p className="text-lg font-bold underline">{sau.title}</p>
                             <p className="text-base">{sau.description}</p>
                             <div>
-                            <p className="text-base">Reviews [{sau.reviews}]</p>
+                            <p className="text-base">Reviews 
+                            <StarIcon/>
+                            [{sau.reviews}]</p>
                               
                             </div>
                         </div>

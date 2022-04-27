@@ -6,6 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { starterPlants } from '../data/menu-data';
+import StarIcon from '@mui/icons-material/Star';
 
 class StarterPlantsList extends React.Component {
   state = {
@@ -61,7 +62,9 @@ class StarterPlantsList extends React.Component {
                             <p className="text-lg font-bold underline">{sp.title}</p>
                             <p className="text-base">{sp.thc}</p>
                             <div>
-                            <p className="text-base">Reviews [{sp.reviews}]</p>
+                            <p className="text-base">Reviews 
+                            <StarIcon/>
+                            [{sp.reviews}]</p>
                               
                             </div>
                         </div>

@@ -6,6 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { elixir } from '../data/menu-data';
+import StarIcon from '@mui/icons-material/Star';
 
 class ElixirList extends React.Component {
   state = {
@@ -61,7 +62,9 @@ class ElixirList extends React.Component {
                             <p className="text-lg font-bold underline">{el.title}</p>
                             <p className="text-base">{el.thc}</p>
                             <div>
-                            <p className="text-base">Reviews [{el.reviews}]</p>
+                            <p className="text-base">Reviews 
+                            <StarIcon/>
+                            [{el.reviews}]</p>
                               
                             </div>
                         </div>

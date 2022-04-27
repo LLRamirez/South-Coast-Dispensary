@@ -6,6 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { houseBud, midTier, topTier, secretStash } from '../data/menu-data';
+import StarIcon from '@mui/icons-material/Star';
 
 class BudList extends React.Component {
   state = {
@@ -61,8 +62,11 @@ class BudList extends React.Component {
                             <p className="text-lg font-bold underline">{hbud.title}</p>
                             {/* <p className="text-lg">{hbud.price}</p> */}
                             <div>
-                            <p className="text-base">Reviews [{hbud.reviews}]</p>
-                              
+                            
+                            <p className="text-base">Reviews 
+                            <StarIcon />
+                            [{hbud.reviews}]</p>
+
                             </div>
                         </div>
                         
@@ -90,8 +94,10 @@ class BudList extends React.Component {
                             <p className="text-lg font-bold underline">{mT.title}</p>
                             {/* <p className="text-lg">{mT.price}</p> */}
                             <div>
-                            <p className="text-base">Reviews [{mT.reviews}]</p>
-                              
+                            <p className="text-base">Reviews 
+                            <StarIcon />
+                            [{mT.reviews}]</p>
+                            
                             </div>
                         </div>
                         
@@ -121,8 +127,10 @@ class BudList extends React.Component {
                             <p className="text-lg font-bold underline">{tT.title}</p>
                             {/* <p className="text-lg">{tT.price}</p> */}
                             <div>
-                            <p className="text-base">Reviews [{tT.reviews}]</p>
-                              
+                            <p className="text-base">Reviews 
+                            <StarIcon />
+                            [{tT.reviews}]</p>
+                            
                             </div>
                         </div>
                         
@@ -152,8 +160,9 @@ class BudList extends React.Component {
                             <p className="text-lg font-bold underline">{sSt.title}</p>
                             {/* <p className="text-lg">{prod.price}</p> */}
                             <div>
-                            <p className="text-base">Reviews [{sSt.reviews}]</p>
-                              
+                            <p className="text-base">Reviews <StarIcon />
+                            [{sSt.reviews}]</p>
+                            
                             </div>
                         </div>
                         
