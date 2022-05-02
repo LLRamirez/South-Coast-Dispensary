@@ -9,7 +9,7 @@ import StarterPlantsList from '../components/StarterPlantsList';
 
 const Menu = (props) => {
     return(
-        <div>
+        <div id="menuContainer">
             <div className="pt-6">
             <h1 class="text-3xl font-bold underline pt-6 pb-4 text-center text-[#ddfc74]">MENU</h1>
             </div>
